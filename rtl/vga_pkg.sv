@@ -28,11 +28,9 @@ localparam VER_SYNCSTP = 605;
 
 
 // draw rct parameters
-localparam X_RCTSTR = 100;
-localparam Y_RCTSTR = 100;
 
-localparam WID_RCT = 100;
-localparam HGH_RCT = 200;
+localparam WID_RCT = 47;
+localparam HGH_RCT = 63;
 
 localparam COL_RCT = 12'hf_0_0;;
 

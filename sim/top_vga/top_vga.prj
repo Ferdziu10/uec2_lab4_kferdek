@@ -13,7 +13,17 @@ sv work ../../rtl/vga_pkg.sv \
         ../../rtl/vga_timing.sv \
         ../../rtl/draw_bg.sv \
         ../../rtl/draw_rct.sv \
+        ../../rtl/draw_rct_ctl.sv \
         ../../rtl/top_vga.sv \
         ../../rtl/vga_if.sv \
+        ../../rtl/draw_mouse.sv \
+        ../../rtl/image_rom.sv \
+        ../../rtl/rgb_wait.sv \
+        ../../rtl/hv_wait.sv \
+        ../../rtl/mouse_to40.sv \
         ../common/tiff_writer.sv \
         top_vga_tb.sv
+
+vhdl work ../../rtl/Ps2Interface.vhd \
+          ../../rtl/MouseCtl.vhd \
+          ../../rtl/MouseDisplay.vhd
